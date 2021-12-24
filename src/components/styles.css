@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+.Clima{
+    height: 100vh;
+    width: 50%;
+    background-color:  #fafafa;
+}
+
+.Imagen{
+    height: 100vh;
+    width: 50%;
+    background:  linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main{
+    margin: 10px;
+    border-radius: 15px;
+    background: rgb(40,0,152);
+    background: linear-gradient(90deg, rgba(40,0,152,1) 0%, rgba(104,0,207,1) 51%, rgba(40,0,152,1) 100%);
+    height: 230px;
+    
+
+}
+.ContenedorClima{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.Derecha{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.Icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height:50%;
+    background-color: rgb(235, 230, 212);
+    border-radius: 15px;
+
+}
+.top{
+    height: 60px;
+    background-color: #424242;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    color: whitesmoke;
+   margin: 10px;
+    font-size: 25px;
+    font-family: 'Recursive', sans-serif;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+}
+
+.day{
+    
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.temp{
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+}
+
+.flex{
+    display: flex;
+}
+
+.sunrise-sunset{
+    
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+}
+
+.description{
+    
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.forecast{
+    border-radius: 15px;
+    background: rgb(28,0,105);
+    background: linear-gradient(90deg, rgba(28,0,105,1) 0%, rgba(72,0,144,1) 51%, rgba(28,0,105,1) 100%);
+    color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 19px;
+    height: 80px;
+
+}
+
+.flex-forecast{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorimagen{
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img{
+    min-width: 100%;
+    width: 100%;
+    margin-left: 10%;
+}
+    
